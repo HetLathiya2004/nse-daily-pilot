@@ -1,1 +1,80 @@
-{"champion":null,"runs":[]}
+{
+  "champion": {
+    "strategy": "ts_mom",
+    "params": {
+      "lookback": 9
+    },
+    "promoted_on": "2026-10-01"
+  },
+  "runs": [
+    {
+      "date": "2026-10-01",
+      "is_months": 48,
+      "oos_months": 12,
+      "warmup_months": 16,
+      "capital": 100000.0,
+      "champion": null,
+      "contenders": [
+        {
+          "strategy": "xsmom",
+          "params": {
+            "formation": 12,
+            "hold": 1
+          },
+          "is_metrics": {
+            "total_return": 1.2804,
+            "cagr": 0.1761,
+            "sharpe": 0.85,
+            "max_drawdown": -0.2382,
+            "num_roundtrips": 0,
+            "win_rate": 0.0,
+            "profit_factor": 0.0,
+            "total_costs": 4173.72,
+            "num_rebalances": 60
+          },
+          "oos_metrics": {
+            "total_return": -0.0514,
+            "cagr": -0.0475,
+            "sharpe": -0.094,
+            "max_drawdown": -0.1631,
+            "num_roundtrips": 0,
+            "win_rate": 0.0,
+            "profit_factor": 0.0,
+            "total_costs": 483.09,
+            "num_rebalances": 12
+          }
+        },
+        {
+          "strategy": "ts_mom",
+          "params": {
+            "lookback": 9
+          },
+          "is_metrics": {
+            "total_return": 0.8131,
+            "cagr": 0.1242,
+            "sharpe": 0.922,
+            "max_drawdown": -0.1726,
+            "num_roundtrips": 0,
+            "win_rate": 0.0,
+            "profit_factor": 0.0,
+            "total_costs": 1143.56,
+            "num_rebalances": 60
+          },
+          "oos_metrics": {
+            "total_return": -0.0242,
+            "cagr": -0.0224,
+            "sharpe": -0.079,
+            "max_drawdown": -0.1102,
+            "num_roundtrips": 0,
+            "win_rate": 0.0,
+            "profit_factor": 0.0,
+            "total_costs": 261.92,
+            "num_rebalances": 12
+          }
+        }
+      ],
+      "promoted": true,
+      "reason": "initial seeding: ts_mom {'lookback': 9} (BELOW minimum OOS gates -- weak start, will be replaced when something proves itself)"
+    }
+  ]
+}

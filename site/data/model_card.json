@@ -1,0 +1,94 @@
+{
+  "champion": {
+    "strategy": "ts_mom",
+    "params": {
+      "lookback": 9
+    },
+    "description": "Time-series momentum: hold names with positive trailing lookback-month return (skip 1m), equal weight, else cash.",
+    "promoted_on": "2026-10-01",
+    "promotions_to_date": 1,
+    "runs_to_date": 1
+  },
+  "oos_evidence": {
+    "window_months": 12,
+    "note": "walk-forward out-of-sample, net of full Indian costs; past OOS performance does not predict future returns",
+    "total_return": -0.0242,
+    "cagr": -0.0224,
+    "sharpe": -0.079,
+    "max_drawdown": -0.1102,
+    "num_roundtrips": 0,
+    "win_rate": 0.0,
+    "profit_factor": 0.0,
+    "total_costs": 261.92,
+    "num_rebalances": 12
+  },
+  "oos_equity": [
+    [
+      1759190400000,
+      100000.0
+    ],
+    [
+      1761868800000,
+      104705.89
+    ],
+    [
+      1764460800000,
+      105634.07
+    ],
+    [
+      1767139200000,
+      105497.8
+    ],
+    [
+      1769817600000,
+      104280.14
+    ],
+    [
+      1772236800000,
+      104344.14
+    ],
+    [
+      1774915200000,
+      93988.66
+    ],
+    [
+      1777507200000,
+      102186.17
+    ],
+    [
+      1780185600000,
+      102021.3
+    ],
+    [
+      1782777600000,
+      101260.49
+    ],
+    [
+      1785456000000,
+      103603.69
+    ],
+    [
+      1788134400000,
+      103217.3
+    ],
+    [
+      1790726400000,
+      97580.3
+    ]
+  ],
+  "history": [
+    {
+      "date": "2026-10-01",
+      "champion": null,
+      "challenger": [
+        "ts_mom",
+        {
+          "lookback": 9
+        },
+        -0.079
+      ],
+      "promoted": true,
+      "reason": "initial seeding: ts_mom {'lookback': 9} (BELOW minimum OOS gates -- weak start, will be replaced when something proves itself)"
+    }
+  ]
+}

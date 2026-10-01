@@ -1,0 +1,297 @@
+{
+  "signal_date": "2026-10-01",
+  "generated_at_utc": "2026-10-01T15:29:53.722919+00:00",
+  "generated_at_ist": "2026-10-01T20:59:53.722919+05:30",
+  "data_through": "2026-09-30",
+  "strategy": "ts_mom",
+  "params": {
+    "lookback": 9
+  },
+  "as_of_month": "2026-09",
+  "next_rebalance_month": null,
+  "capital_rs": 100000.0,
+  "risk_per_trade": 0.01,
+  "max_position_pct": 0.25,
+  "direction": "long",
+  "rules": {
+    "entry": "previous close (reference; fills at next session open)",
+    "stop_loss": "entry - 2.0 x ATR(14)",
+    "target": "entry + 2.0R (R = 2.0 x ATR(14))",
+    "sizing": "min(risk_per_trade x capital / (entry - stop), max_position_pct x capital / entry), whole shares",
+    "rebalance": "picks refresh monthly at month-end; levels refresh daily"
+  },
+  "universe": {
+    "ranked": 49,
+    "loaded": 49,
+    "listed": 49
+  },
+  "positions": [
+    {
+      "symbol": "ADANIENT.NS",
+      "direction": "long",
+      "strategy_weight": 0.0714,
+      "formation_return": 0.2969,
+      "entry_ref": 2903.4,
+      "entry_note": "previous close; backtest fills at next session open",
+      "atr14": 83.33,
+      "stop_loss": 2736.73,
+      "target": 3236.74,
+      "qty": 5,
+      "notional_rs": 14517.0,
+      "risk_rs": 833.35,
+      "trailing_12m": {
+        "total_return": 0.1591,
+        "sharpe": 0.59,
+        "max_drawdown": -0.3216
+      }
+    },
+    {
+      "symbol": "ADANIPORTS.NS",
+      "direction": "long",
+      "strategy_weight": 0.0714,
+      "formation_return": 0.2287,
+      "entry_ref": 1798.3,
+      "entry_note": "previous close; backtest fills at next session open",
+      "atr14": 41.85,
+      "stop_loss": 1714.6,
+      "target": 1965.7,
+      "qty": 11,
+      "notional_rs": 19781.3,
+      "risk_rs": 920.68,
+      "trailing_12m": {
+        "total_return": 0.2867,
+        "sharpe": 1.014,
+        "max_drawdown": -0.1698
+      }
+    },
+    {
+      "symbol": "APOLLOHOSP.NS",
+      "direction": "long",
+      "strategy_weight": 0.0714,
+      "formation_return": 0.1624,
+      "entry_ref": 8165.5,
+      "entry_note": "previous close; backtest fills at next session open",
+      "atr14": 186.9,
+      "stop_loss": 7791.7,
+      "target": 8913.1,
+      "qty": 2,
+      "notional_rs": 16331.0,
+      "risk_rs": 747.6,
+      "trailing_12m": {
+        "total_return": 0.1049,
+        "sharpe": 0.616,
+        "max_drawdown": -0.1521
+      }
+    },
+    {
+      "symbol": "BAJAJ-AUTO.NS",
+      "direction": "long",
+      "strategy_weight": 0.0714,
+      "formation_return": 0.1802,
+      "entry_ref": 10874.0,
+      "entry_note": "previous close; backtest fills at next session open",
+      "atr14": 197.16,
+      "stop_loss": 10479.68,
+      "target": 11662.63,
+      "qty": 2,
+      "notional_rs": 21748.0,
+      "risk_rs": 788.63,
+      "trailing_12m": {
+        "total_return": 0.2706,
+        "sharpe": 1.182,
+        "max_drawdown": -0.1337
+      }
+    },
+    {
+      "symbol": "COALINDIA.NS",
+      "direction": "long",
+      "strategy_weight": 0.0714,
+      "formation_return": 0.1075,
+      "entry_ref": 425.0,
+      "entry_note": "previous close; backtest fills at next session open",
+      "atr14": 7.55,
+      "stop_loss": 409.9,
+      "target": 455.2,
+      "qty": 58,
+      "notional_rs": 24650.0,
+      "risk_rs": 875.71,
+      "trailing_12m": {
+        "total_return": 0.1639,
+        "sharpe": 0.776,
+        "max_drawdown": -0.1584
+      }
+    },
+    {
+      "symbol": "ETERNAL.NS",
+      "direction": "long",
+      "strategy_weight": 0.0714,
+      "formation_return": 0.1509,
+      "entry_ref": 320.0,
+      "entry_note": "previous close; backtest fills at next session open",
+      "atr14": 7.94,
+      "stop_loss": 304.12,
+      "target": 351.75,
+      "qty": 62,
+      "notional_rs": 19840.0,
+      "risk_rs": 984.32,
+      "trailing_12m": {
+        "total_return": -0.0169,
+        "sharpe": 0.112,
+        "max_drawdown": -0.3913
+      }
+    },
+    {
+      "symbol": "GRASIM.NS",
+      "direction": "long",
+      "strategy_weight": 0.0714,
+      "formation_return": 0.0857,
+      "entry_ref": 3061.9,
+      "entry_note": "previous close; backtest fills at next session open",
+      "atr14": 57.58,
+      "stop_loss": 2946.74,
+      "target": 3292.21,
+      "qty": 8,
+      "notional_rs": 24495.2,
+      "risk_rs": 921.25,
+      "trailing_12m": {
+        "total_return": 0.1141,
+        "sharpe": 0.586,
+        "max_drawdown": -0.1445
+      }
+    },
+    {
+      "symbol": "HINDALCO.NS",
+      "direction": "long",
+      "strategy_weight": 0.0714,
+      "formation_return": 0.0677,
+      "entry_ref": 941.8,
+      "entry_note": "previous close; backtest fills at next session open",
+      "atr14": 21.03,
+      "stop_loss": 899.74,
+      "target": 1025.91,
+      "qty": 23,
+      "notional_rs": 21661.4,
+      "risk_rs": 967.29,
+      "trailing_12m": {
+        "total_return": 0.2425,
+        "sharpe": 0.905,
+        "max_drawdown": -0.1827
+      }
+    },
+    {
+      "symbol": "JSWSTEEL.NS",
+      "direction": "long",
+      "strategy_weight": 0.0714,
+      "formation_return": 0.0822,
+      "entry_ref": 1253.4,
+      "entry_note": "previous close; backtest fills at next session open",
+      "atr14": 24.19,
+      "stop_loss": 1205.03,
+      "target": 1350.14,
+      "qty": 19,
+      "notional_rs": 23814.6,
+      "risk_rs": 919.08,
+      "trailing_12m": {
+        "total_return": 0.1032,
+        "sharpe": 0.534,
+        "max_drawdown": -0.1335
+      }
+    },
+    {
+      "symbol": "NESTLEIND.NS",
+      "direction": "long",
+      "strategy_weight": 0.0714,
+      "formation_return": 0.0275,
+      "entry_ref": 1310.0,
+      "entry_note": "previous close; backtest fills at next session open",
+      "atr14": 27.88,
+      "stop_loss": 1254.23,
+      "target": 1421.54,
+      "qty": 17,
+      "notional_rs": 22270.0,
+      "risk_rs": 948.09,
+      "trailing_12m": {
+        "total_return": 0.1479,
+        "sharpe": 0.777,
+        "max_drawdown": -0.1494
+      }
+    },
+    {
+      "symbol": "POWERGRID.NS",
+      "direction": "long",
+      "strategy_weight": 0.0714,
+      "formation_return": 0.0002,
+      "entry_ref": 260.5,
+      "entry_note": "previous close; backtest fills at next session open",
+      "atr14": 4.92,
+      "stop_loss": 250.66,
+      "target": 280.18,
+      "qty": 95,
+      "notional_rs": 24747.5,
+      "risk_rs": 934.88,
+      "trailing_12m": {
+        "total_return": -0.0398,
+        "sharpe": -0.099,
+        "max_drawdown": -0.1844
+      }
+    },
+    {
+      "symbol": "SUNPHARMA.NS",
+      "direction": "long",
+      "strategy_weight": 0.0714,
+      "formation_return": 0.066,
+      "entry_ref": 1816.6,
+      "entry_note": "previous close; backtest fills at next session open",
+      "atr14": 31.04,
+      "stop_loss": 1754.52,
+      "target": 1940.77,
+      "qty": 13,
+      "notional_rs": 23615.8,
+      "risk_rs": 807.08,
+      "trailing_12m": {
+        "total_return": 0.1498,
+        "sharpe": 0.818,
+        "max_drawdown": -0.1323
+      }
+    },
+    {
+      "symbol": "TATASTEEL.NS",
+      "direction": "long",
+      "strategy_weight": 0.0714,
+      "formation_return": 0.0445,
+      "entry_ref": 184.3,
+      "entry_note": "previous close; backtest fills at next session open",
+      "atr14": 4.28,
+      "stop_loss": 175.73,
+      "target": 201.44,
+      "qty": 116,
+      "notional_rs": 21378.8,
+      "risk_rs": 993.91,
+      "trailing_12m": {
+        "total_return": 0.1145,
+        "sharpe": 0.55,
+        "max_drawdown": -0.1571
+      }
+    },
+    {
+      "symbol": "TITAN.NS",
+      "direction": "long",
+      "strategy_weight": 0.0714,
+      "formation_return": 0.1359,
+      "entry_ref": 4587.0,
+      "entry_note": "previous close; backtest fills at next session open",
+      "atr14": 87.44,
+      "stop_loss": 4412.11,
+      "target": 4936.78,
+      "qty": 5,
+      "notional_rs": 22935.0,
+      "risk_rs": 874.45,
+      "trailing_12m": {
+        "total_return": 0.3668,
+        "sharpe": 1.458,
+        "max_drawdown": -0.1127
+      }
+    }
+  ],
+  "skipped": []
+}
