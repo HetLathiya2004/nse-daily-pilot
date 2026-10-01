@@ -1,0 +1,8 @@
+# fetched daily bars (large, regenerable) -- never commit
+data/*.parquet
+data/*.csv
+data/cache/
+# python
+__pycache__/
+*.pyc
+.venv/

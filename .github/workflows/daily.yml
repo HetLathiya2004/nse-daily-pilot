@@ -1,0 +1,47 @@
+name: daily-pipeline
+
+# Runs every weekday at 11:30 UTC = 17:00 IST, after the NSE close.
+on:
+  schedule:
+    - cron: "30 11 * * 1-5"
+  workflow_dispatch: {}  # allow manual runs from the Actions tab
+
+# One run at a time: a slow run cancels rather than overlapping the next.
+concurrency:
+  group: daily-pipeline
+  cancel-in-progress: true
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # to commit the fresh JSON back to the repo
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Fetch daily bars
+        run: python -m pipeline.fetch
+
+      - name: Walk-forward tune (champion/challenger)
+        run: python -m pipeline.tune
+
+      - name: Emit next-session signals
+        run: python -m pipeline.signals
+
+      - name: Commit fresh data
+        run: |
+          git config user.name "nse-pilot-bot"
+          git config user.email "nse-pilot-bot@users.noreply.github.com"
+          git add site/data/signals.json site/data/model_card.json \
+                  site/data/last_run.json model_registry.json \
+                  data/_manifest.json
+          git diff --cached --quiet || \
+            git commit -m "daily pipeline: $(date -u +%Y-%m-%d)"
+          git push

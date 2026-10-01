@@ -1,0 +1,40 @@
+# NSE Daily Pilot -- pipeline configuration.
+# Everything Het is likely to tweak lives here.
+
+# Paper capital in Rs (position sizing only; no real orders ever).
+capital: 100000
+
+# Risk limits for the signal plan.
+risk_per_trade: 0.01      # 1% of capital risked per position (entry->stop)
+max_position_pct: 0.25    # no single position > 25% of capital
+atr_period: 14
+atr_stop_multiple: 2.0    # stop = entry - 2 x ATR(14)
+target_rr: 2.0            # target = entry + 2R
+
+# Walk-forward self-improvement loop (pipeline/tune.py).
+tune:
+  is_months: 48           # in-sample grid-search window (rolling)
+  oos_months: 12          # out-of-sample evaluation window (rolling)
+  min_is_rebalances: 8    # IS param must trade this often (anti-fluke)
+  min_oos_rebalances: 4   # OOS comparison needs this many rebalances
+  promote_sharpe_edge: 0.10  # challenger must beat champion OOS Sharpe by this
+  max_drawdown_cap: 0.40     # challenger OOS max DD must be within 40%
+
+# Full Indian cost model, applied to every backtested trade (delivery).
+# Rs 0 delivery brokerage at most discount brokers; STT 0.1% both legs.
+costs:
+  delivery_brokerage: 0.0
+  stt_delivery: 0.001
+  stamp_delivery: 0.00015
+  exchange_pct: 0.0000345
+  gst: 0.18
+  sebi_pct: 0.000001
+  slippage_bps: 5.0
+
+# History start for downloads (YYYY-MM-DD). ~7+ years covers the 48m IS +
+# 12m OOS + 16m warmup the loop needs.
+data_start: "2018-01-01"
+
+# Schedule note: GitHub Actions cron is '30 11 * * 1-5' = 11:30 UTC =
+# 17:00 IST, Mon-Fri, after the NSE close. Change it in
+# .github/workflows/daily.yml if you want a different time.

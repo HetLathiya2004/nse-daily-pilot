@@ -1,0 +1,6 @@
+pandas>=2.0
+numpy>=1.26
+yfinance>=0.2.40
+pyyaml>=6.0
+# pyarrow is optional: fast parquet cache, CSV fallback otherwise
+pyarrow>=14.0
