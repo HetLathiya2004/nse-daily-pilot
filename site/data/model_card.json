@@ -7,14 +7,14 @@
     "description": "Time-series momentum: hold names with positive trailing lookback-month return (skip 1m), equal weight, else cash.",
     "promoted_on": "2026-10-01",
     "promotions_to_date": 1,
-    "runs_to_date": 2
+    "runs_to_date": 3
   },
   "oos_evidence": {
     "window_months": 12,
     "note": "walk-forward out-of-sample, net of full Indian costs; past OOS performance does not predict future returns",
-    "total_return": -0.0894,
-    "cagr": -0.0828,
-    "sharpe": -0.543,
+    "total_return": -0.0857,
+    "cagr": -0.0794,
+    "sharpe": -0.519,
     "max_drawdown": -0.1102,
     "num_roundtrips": 0,
     "win_rate": 0.0,
@@ -73,7 +73,7 @@
     ],
     [
       1793404800000,
-      91064.82
+      91428.55
     ]
   ],
   "history": [
@@ -107,6 +107,24 @@
       ],
       "promoted": false,
       "reason": "challenger ts_mom failed minimum OOS gates (ret=-0.0894, dd=-0.1102, rebal=12) -- champion stays"
+    },
+    {
+      "date": "2026-10-06",
+      "champion": [
+        "ts_mom",
+        {
+          "lookback": 9
+        }
+      ],
+      "challenger": [
+        "ts_mom",
+        {
+          "lookback": 9
+        },
+        -0.519
+      ],
+      "promoted": false,
+      "reason": "challenger ts_mom failed minimum OOS gates (ret=-0.0857, dd=-0.1102, rebal=12) -- champion stays"
     }
   ]
 }
