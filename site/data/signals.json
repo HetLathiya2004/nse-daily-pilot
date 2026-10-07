@@ -1,11 +1,12 @@
 {
-  "signal_date": "2026-10-06",
-  "generated_at_utc": "2026-10-06T17:30:07.898624+00:00",
-  "generated_at_ist": "2026-10-06T23:00:07.898624+05:30",
-  "data_through": "2026-10-05",
-  "strategy": "ts_mom",
+  "signal_date": "2026-10-07",
+  "generated_at_utc": "2026-10-07T18:03:16.632728+00:00",
+  "generated_at_ist": "2026-10-07T23:33:16.632728+05:30",
+  "data_through": "2026-10-06",
+  "strategy": "xsmom",
   "params": {
-    "lookback": 9
+    "formation": 3,
+    "hold": 3
   },
   "as_of_month": "2026-09",
   "next_rebalance_month": "2026-10",
@@ -27,269 +28,79 @@
   },
   "positions": [
     {
-      "symbol": "ADANIENT.NS",
+      "symbol": "ETERNAL.NS",
       "direction": "long",
-      "strategy_weight": 0.0714,
-      "formation_return": 0.2969,
-      "entry_ref": 2864.0,
+      "strategy_weight": 0.25,
+      "formation_return": 0.2094,
+      "entry_ref": 329.0,
       "entry_note": "previous close; backtest fills at next session open",
-      "atr14": 80.13,
-      "stop_loss": 2703.75,
-      "target": 3184.51,
-      "qty": 6,
-      "notional_rs": 17184.0,
-      "risk_rs": 961.52,
+      "atr14": 8.28,
+      "stop_loss": 312.44,
+      "target": 362.12,
+      "qty": 60,
+      "notional_rs": 19740.0,
+      "risk_rs": 993.49,
       "trailing_12m": {
-        "total_return": 0.1134,
-        "sharpe": 0.478,
-        "max_drawdown": -0.3166
+        "total_return": -0.0262,
+        "sharpe": 0.084,
+        "max_drawdown": -0.3913
       }
     },
     {
-      "symbol": "ADANIPORTS.NS",
+      "symbol": "HCLTECH.NS",
       "direction": "long",
-      "strategy_weight": 0.0714,
-      "formation_return": 0.2287,
-      "entry_ref": 1774.0,
+      "strategy_weight": 0.25,
+      "formation_return": 0.1593,
+      "entry_ref": 1204.4,
       "entry_note": "previous close; backtest fills at next session open",
-      "atr14": 41.52,
-      "stop_loss": 1690.96,
-      "target": 1940.07,
-      "qty": 12,
-      "notional_rs": 21288.0,
-      "risk_rs": 996.44,
+      "atr14": 31.62,
+      "stop_loss": 1141.17,
+      "target": 1330.87,
+      "qty": 15,
+      "notional_rs": 18066.0,
+      "risk_rs": 948.5,
       "trailing_12m": {
-        "total_return": 0.272,
-        "sharpe": 0.97,
-        "max_drawdown": -0.1698
-      }
-    },
-    {
-      "symbol": "APOLLOHOSP.NS",
-      "direction": "long",
-      "strategy_weight": 0.0714,
-      "formation_return": 0.1624,
-      "entry_ref": 7985.0,
-      "entry_note": "previous close; backtest fills at next session open",
-      "atr14": 183.45,
-      "stop_loss": 7618.1,
-      "target": 8718.8,
-      "qty": 2,
-      "notional_rs": 15970.0,
-      "risk_rs": 733.8,
-      "trailing_12m": {
-        "total_return": 0.0448,
-        "sharpe": 0.325,
-        "max_drawdown": -0.1521
+        "total_return": -0.1217,
+        "sharpe": -0.306,
+        "max_drawdown": -0.3906
       }
     },
     {
       "symbol": "BAJAJ-AUTO.NS",
       "direction": "long",
-      "strategy_weight": 0.0714,
-      "formation_return": 0.1802,
-      "entry_ref": 10024.0,
+      "strategy_weight": 0.25,
+      "formation_return": 0.1192,
+      "entry_ref": 10017.0,
       "entry_note": "previous close; backtest fills at next session open",
-      "atr14": 246.67,
-      "stop_loss": 9530.66,
-      "target": 11010.69,
+      "atr14": 221.14,
+      "stop_loss": 9574.73,
+      "target": 10901.54,
       "qty": 2,
-      "notional_rs": 20048.0,
-      "risk_rs": 986.69,
+      "notional_rs": 20034.0,
+      "risk_rs": 884.54,
       "trailing_12m": {
-        "total_return": 0.1712,
-        "sharpe": 0.787,
-        "max_drawdown": -0.1891
+        "total_return": 0.1408,
+        "sharpe": 0.677,
+        "max_drawdown": -0.1896
       }
     },
     {
-      "symbol": "COALINDIA.NS",
+      "symbol": "TECHM.NS",
       "direction": "long",
-      "strategy_weight": 0.0714,
-      "formation_return": 0.1075,
-      "entry_ref": 425.1,
+      "strategy_weight": 0.25,
+      "formation_return": 0.1131,
+      "entry_ref": 1504.5,
       "entry_note": "previous close; backtest fills at next session open",
-      "atr14": 7.41,
-      "stop_loss": 410.27,
-      "target": 454.75,
-      "qty": 58,
-      "notional_rs": 24655.8,
-      "risk_rs": 859.95,
+      "atr14": 36.96,
+      "stop_loss": 1430.57,
+      "target": 1652.36,
+      "qty": 13,
+      "notional_rs": 19558.5,
+      "risk_rs": 961.08,
       "trailing_12m": {
-        "total_return": 0.1887,
-        "sharpe": 0.868,
-        "max_drawdown": -0.1584
-      }
-    },
-    {
-      "symbol": "ETERNAL.NS",
-      "direction": "long",
-      "strategy_weight": 0.0714,
-      "formation_return": 0.1509,
-      "entry_ref": 320.8,
-      "entry_note": "previous close; backtest fills at next session open",
-      "atr14": 8.06,
-      "stop_loss": 304.68,
-      "target": 353.05,
-      "qty": 62,
-      "notional_rs": 19889.6,
-      "risk_rs": 999.69,
-      "trailing_12m": {
-        "total_return": -0.0427,
-        "sharpe": 0.032,
-        "max_drawdown": -0.3913
-      }
-    },
-    {
-      "symbol": "GRASIM.NS",
-      "direction": "long",
-      "strategy_weight": 0.0714,
-      "formation_return": 0.0857,
-      "entry_ref": 2972.0,
-      "entry_note": "previous close; backtest fills at next session open",
-      "atr14": 61.9,
-      "stop_loss": 2848.19,
-      "target": 3219.62,
-      "qty": 8,
-      "notional_rs": 23776.0,
-      "risk_rs": 990.47,
-      "trailing_12m": {
-        "total_return": 0.068,
-        "sharpe": 0.4,
-        "max_drawdown": -0.1445
-      }
-    },
-    {
-      "symbol": "HINDALCO.NS",
-      "direction": "long",
-      "strategy_weight": 0.0714,
-      "formation_return": 0.0677,
-      "entry_ref": 938.4,
-      "entry_note": "previous close; backtest fills at next session open",
-      "atr14": 19.9,
-      "stop_loss": 898.6,
-      "target": 1018.0,
-      "qty": 25,
-      "notional_rs": 23460.0,
-      "risk_rs": 995.06,
-      "trailing_12m": {
-        "total_return": 0.2145,
-        "sharpe": 0.826,
-        "max_drawdown": -0.1827
-      }
-    },
-    {
-      "symbol": "JSWSTEEL.NS",
-      "direction": "long",
-      "strategy_weight": 0.0714,
-      "formation_return": 0.0822,
-      "entry_ref": 1235.3,
-      "entry_note": "previous close; backtest fills at next session open",
-      "atr14": 23.62,
-      "stop_loss": 1188.06,
-      "target": 1329.78,
-      "qty": 20,
-      "notional_rs": 24706.0,
-      "risk_rs": 944.79,
-      "trailing_12m": {
-        "total_return": 0.0711,
-        "sharpe": 0.409,
-        "max_drawdown": -0.1335
-      }
-    },
-    {
-      "symbol": "NESTLEIND.NS",
-      "direction": "long",
-      "strategy_weight": 0.0714,
-      "formation_return": 0.0275,
-      "entry_ref": 1297.1,
-      "entry_note": "previous close; backtest fills at next session open",
-      "atr14": 27.08,
-      "stop_loss": 1242.95,
-      "target": 1405.4,
-      "qty": 18,
-      "notional_rs": 23347.8,
-      "risk_rs": 974.73,
-      "trailing_12m": {
-        "total_return": 0.1201,
-        "sharpe": 0.657,
-        "max_drawdown": -0.1577
-      }
-    },
-    {
-      "symbol": "POWERGRID.NS",
-      "direction": "long",
-      "strategy_weight": 0.0714,
-      "formation_return": 0.0002,
-      "entry_ref": 257.0,
-      "entry_note": "previous close; backtest fills at next session open",
-      "atr14": 4.8,
-      "stop_loss": 247.41,
-      "target": 276.18,
-      "qty": 97,
-      "notional_rs": 24929.0,
-      "risk_rs": 930.25,
-      "trailing_12m": {
-        "total_return": -0.0746,
-        "sharpe": -0.284,
-        "max_drawdown": -0.2031
-      }
-    },
-    {
-      "symbol": "SUNPHARMA.NS",
-      "direction": "long",
-      "strategy_weight": 0.0714,
-      "formation_return": 0.066,
-      "entry_ref": 1779.7,
-      "entry_note": "previous close; backtest fills at next session open",
-      "atr14": 28.95,
-      "stop_loss": 1721.8,
-      "target": 1895.49,
-      "qty": 14,
-      "notional_rs": 24915.8,
-      "risk_rs": 810.56,
-      "trailing_12m": {
-        "total_return": 0.0854,
-        "sharpe": 0.522,
-        "max_drawdown": -0.1323
-      }
-    },
-    {
-      "symbol": "TATASTEEL.NS",
-      "direction": "long",
-      "strategy_weight": 0.0714,
-      "formation_return": 0.0445,
-      "entry_ref": 178.14,
-      "entry_note": "previous close; backtest fills at next session open",
-      "atr14": 4.4,
-      "stop_loss": 169.34,
-      "target": 195.74,
-      "qty": 113,
-      "notional_rs": 20129.82,
-      "risk_rs": 994.29,
-      "trailing_12m": {
-        "total_return": 0.0691,
-        "sharpe": 0.389,
-        "max_drawdown": -0.1784
-      }
-    },
-    {
-      "symbol": "TITAN.NS",
-      "direction": "long",
-      "strategy_weight": 0.0714,
-      "formation_return": 0.1359,
-      "entry_ref": 4580.0,
-      "entry_note": "previous close; backtest fills at next session open",
-      "atr14": 85.51,
-      "stop_loss": 4408.98,
-      "target": 4922.05,
-      "qty": 5,
-      "notional_rs": 22900.0,
-      "risk_rs": 855.12,
-      "trailing_12m": {
-        "total_return": 0.3415,
-        "sharpe": 1.376,
-        "max_drawdown": -0.1264
+        "total_return": 0.084,
+        "sharpe": 0.433,
+        "max_drawdown": -0.2469
       }
     }
   ],

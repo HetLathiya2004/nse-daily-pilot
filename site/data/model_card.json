@@ -1,26 +1,27 @@
 {
   "champion": {
-    "strategy": "ts_mom",
+    "strategy": "xsmom",
     "params": {
-      "lookback": 9
+      "formation": 3,
+      "hold": 3
     },
-    "description": "Time-series momentum: hold names with positive trailing lookback-month return (skip 1m), equal weight, else cash.",
-    "promoted_on": "2026-10-01",
-    "promotions_to_date": 1,
-    "runs_to_date": 3
+    "description": "Cross-sectional momentum: hold top-decile names by trailing formation-month return (skip 1m), equal weight.",
+    "promoted_on": "2026-10-07",
+    "promotions_to_date": 2,
+    "runs_to_date": 4
   },
   "oos_evidence": {
     "window_months": 12,
     "note": "walk-forward out-of-sample, net of full Indian costs; past OOS performance does not predict future returns",
-    "total_return": -0.0857,
-    "cagr": -0.0794,
-    "sharpe": -0.519,
-    "max_drawdown": -0.1102,
+    "total_return": 0.0927,
+    "cagr": 0.0852,
+    "sharpe": 0.625,
+    "max_drawdown": -0.1033,
     "num_roundtrips": 0,
     "win_rate": 0.0,
     "profit_factor": 0.0,
-    "total_costs": 250.71,
-    "num_rebalances": 12
+    "total_costs": 1268.46,
+    "num_rebalances": 4
   },
   "oos_equity": [
     [
@@ -29,51 +30,51 @@
     ],
     [
       1764460800000,
-      100786.55
+      102052.53
     ],
     [
       1767139200000,
-      100656.53
+      110955.74
     ],
     [
       1769817600000,
-      99494.75
+      109662.77
     ],
     [
       1772236800000,
-      99555.81
+      108003.37
     ],
     [
       1774915200000,
-      89675.54
+      99494.97
     ],
     [
       1777507200000,
-      97496.87
+      106854.61
     ],
     [
       1780185600000,
-      97339.56
+      112509.96
     ],
     [
       1782777600000,
-      96613.67
+      114125.83
     ],
     [
       1785456000000,
-      98849.34
+      113793.71
     ],
     [
       1788134400000,
-      98480.68
+      112936.94
     ],
     [
       1790726400000,
-      93102.36
+      108627.13
     ],
     [
       1793404800000,
-      91428.55
+      109266.61
     ]
   ],
   "history": [
@@ -125,6 +126,25 @@
       ],
       "promoted": false,
       "reason": "challenger ts_mom failed minimum OOS gates (ret=-0.0857, dd=-0.1102, rebal=12) -- champion stays"
+    },
+    {
+      "date": "2026-10-07",
+      "champion": [
+        "ts_mom",
+        {
+          "lookback": 9
+        }
+      ],
+      "challenger": [
+        "xsmom",
+        {
+          "formation": 3,
+          "hold": 3
+        },
+        0.625
+      ],
+      "promoted": true,
+      "reason": "challenger xsmom {'formation': 3, 'hold': 3} OOS Sharpe 0.625 beats champion ts_mom {'lookback': 9} (-0.496) by >= 0.1"
     }
   ]
 }
