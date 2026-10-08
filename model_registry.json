@@ -331,6 +331,92 @@
       ],
       "promoted": true,
       "reason": "challenger xsmom {'formation': 3, 'hold': 3} OOS Sharpe 0.625 beats champion ts_mom {'lookback': 9} (-0.496) by >= 0.1"
+    },
+    {
+      "date": "2026-10-08",
+      "is_months": 48,
+      "oos_months": 12,
+      "warmup_months": 16,
+      "capital": 100000.0,
+      "champion": {
+        "strategy": "xsmom",
+        "params": {
+          "formation": 3,
+          "hold": 3
+        },
+        "oos_metrics": {
+          "total_return": 0.0787,
+          "cagr": 0.0725,
+          "sharpe": 0.543,
+          "max_drawdown": -0.1033,
+          "num_roundtrips": 0,
+          "win_rate": 0.0,
+          "profit_factor": 0.0,
+          "total_costs": 1268.46,
+          "num_rebalances": 4
+        }
+      },
+      "contenders": [
+        {
+          "strategy": "xsmom",
+          "params": {
+            "formation": 3,
+            "hold": 3
+          },
+          "is_metrics": {
+            "total_return": 1.5243,
+            "cagr": 0.1998,
+            "sharpe": 1.095,
+            "max_drawdown": -0.2161,
+            "num_roundtrips": 0,
+            "win_rate": 0.0,
+            "profit_factor": 0.0,
+            "total_costs": 10142.26,
+            "num_rebalances": 20
+          },
+          "oos_metrics": {
+            "total_return": 0.0787,
+            "cagr": 0.0725,
+            "sharpe": 0.543,
+            "max_drawdown": -0.1033,
+            "num_roundtrips": 0,
+            "win_rate": 0.0,
+            "profit_factor": 0.0,
+            "total_costs": 1268.46,
+            "num_rebalances": 4
+          }
+        },
+        {
+          "strategy": "ts_mom",
+          "params": {
+            "lookback": 9
+          },
+          "is_metrics": {
+            "total_return": 0.7747,
+            "cagr": 0.1195,
+            "sharpe": 0.886,
+            "max_drawdown": -0.1726,
+            "num_roundtrips": 0,
+            "win_rate": 0.0,
+            "profit_factor": 0.0,
+            "total_costs": 1163.52,
+            "num_rebalances": 60
+          },
+          "oos_metrics": {
+            "total_return": -0.0977,
+            "cagr": -0.0905,
+            "sharpe": -0.598,
+            "max_drawdown": -0.1102,
+            "num_roundtrips": 0,
+            "win_rate": 0.0,
+            "profit_factor": 0.0,
+            "total_costs": 250.71,
+            "num_rebalances": 12
+          }
+        }
+      ],
+      "promoted": false,
+      "reason": "challenger xsmom OOS Sharpe 0.543 did not beat champion 0.543 by 0.1 -- champion stays"
     }
   ]
 }
