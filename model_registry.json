@@ -417,6 +417,92 @@
       ],
       "promoted": false,
       "reason": "challenger xsmom OOS Sharpe 0.543 did not beat champion 0.543 by 0.1 -- champion stays"
+    },
+    {
+      "date": "2026-10-09",
+      "is_months": 48,
+      "oos_months": 12,
+      "warmup_months": 16,
+      "capital": 100000.0,
+      "champion": {
+        "strategy": "xsmom",
+        "params": {
+          "formation": 3,
+          "hold": 3
+        },
+        "oos_metrics": {
+          "total_return": 0.0455,
+          "cagr": 0.0419,
+          "sharpe": 0.342,
+          "max_drawdown": -0.1033,
+          "num_roundtrips": 0,
+          "win_rate": 0.0,
+          "profit_factor": 0.0,
+          "total_costs": 1268.46,
+          "num_rebalances": 4
+        }
+      },
+      "contenders": [
+        {
+          "strategy": "xsmom",
+          "params": {
+            "formation": 12,
+            "hold": 3
+          },
+          "is_metrics": {
+            "total_return": 1.9879,
+            "cagr": 0.2403,
+            "sharpe": 1.056,
+            "max_drawdown": -0.2067,
+            "num_roundtrips": 0,
+            "win_rate": 0.0,
+            "profit_factor": 0.0,
+            "total_costs": 7758.69,
+            "num_rebalances": 20
+          },
+          "oos_metrics": {
+            "total_return": -0.1769,
+            "cagr": -0.1645,
+            "sharpe": -0.815,
+            "max_drawdown": -0.1769,
+            "num_roundtrips": 0,
+            "win_rate": 0.0,
+            "profit_factor": 0.0,
+            "total_costs": 806.88,
+            "num_rebalances": 4
+          }
+        },
+        {
+          "strategy": "ts_mom",
+          "params": {
+            "lookback": 12
+          },
+          "is_metrics": {
+            "total_return": 0.757,
+            "cagr": 0.1173,
+            "sharpe": 0.848,
+            "max_drawdown": -0.168,
+            "num_roundtrips": 0,
+            "win_rate": 0.0,
+            "profit_factor": 0.0,
+            "total_costs": 1025.5,
+            "num_rebalances": 60
+          },
+          "oos_metrics": {
+            "total_return": -0.0922,
+            "cagr": -0.0854,
+            "sharpe": -0.486,
+            "max_drawdown": -0.1093,
+            "num_roundtrips": 0,
+            "win_rate": 0.0,
+            "profit_factor": 0.0,
+            "total_costs": 253.23,
+            "num_rebalances": 12
+          }
+        }
+      ],
+      "promoted": false,
+      "reason": "challenger ts_mom failed minimum OOS gates (ret=-0.0922, dd=-0.1093, rebal=12) -- champion stays"
     }
   ]
 }
