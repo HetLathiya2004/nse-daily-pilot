@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-12",
+  "as_of": "2026-10-13",
   "ok": [
     "ADANIENT.NS",
     "ADANIPORTS.NS",
@@ -324,27 +324,27 @@
       "status": "ok"
     },
     "TITAN.NS": {
-      "rows": 2167,
+      "rows": 2168,
       "start": "2018-01-01",
-      "end": "2026-10-09",
+      "end": "2026-10-12",
       "status": "ok"
     },
     "TRENT.NS": {
-      "rows": 2167,
+      "rows": 2168,
       "start": "2018-01-01",
-      "end": "2026-10-09",
+      "end": "2026-10-12",
       "status": "ok"
     },
     "ULTRACEMCO.NS": {
-      "rows": 2167,
+      "rows": 2168,
       "start": "2018-01-01",
-      "end": "2026-10-09",
+      "end": "2026-10-12",
       "status": "ok"
     },
     "WIPRO.NS": {
-      "rows": 2167,
+      "rows": 2168,
       "start": "2018-01-01",
-      "end": "2026-10-09",
+      "end": "2026-10-12",
       "status": "ok"
     }
   }
