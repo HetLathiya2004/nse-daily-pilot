@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-22",
+  "as_of": "2026-10-23",
   "ok": [
     "ADANIENT.NS",
     "ADANIPORTS.NS",
@@ -54,297 +54,297 @@
   "failed": [],
   "symbols": {
     "ADANIENT.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "ADANIPORTS.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "APOLLOHOSP.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "ASIANPAINT.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "AXISBANK.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "BAJAJ-AUTO.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "BAJAJFINSV.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "BAJFINANCE.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "BEL.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "BHARTIARTL.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "CIPLA.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "COALINDIA.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "DRREDDY.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "EICHERMOT.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "ETERNAL.NS": {
-      "rows": 1297,
+      "rows": 1298,
       "start": "2021-07-23",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "GRASIM.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "HCLTECH.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "HDFCBANK.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "HDFCLIFE.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "HINDALCO.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "HINDUNILVR.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "ICICIBANK.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "INDIGO.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "INFY.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "ITC.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "JIOFIN.NS": {
-      "rows": 782,
+      "rows": 783,
       "start": "2023-08-21",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "JSWSTEEL.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "KOTAKBANK.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "LT.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "M&M.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "MARUTI.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "MAXHEALTH.NS": {
-      "rows": 1526,
+      "rows": 1527,
       "start": "2020-08-21",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "NESTLEIND.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "NTPC.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "ONGC.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "POWERGRID.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "RELIANCE.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "SBILIFE.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "SBIN.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "SHRIRAMFIN.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "SUNPHARMA.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "TATACONSUM.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "TATASTEEL.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "TCS.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "TECHM.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "TITAN.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "TRENT.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "ULTRACEMCO.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     },
     "WIPRO.NS": {
-      "rows": 2174,
+      "rows": 2175,
       "start": "2018-01-01",
-      "end": "2026-10-21",
+      "end": "2026-10-22",
       "status": "ok"
     }
   }
