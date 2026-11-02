@@ -8,14 +8,14 @@
     "description": "Cross-sectional momentum: hold top-decile names by trailing formation-month return (skip 1m), equal weight.",
     "promoted_on": "2026-10-07",
     "promotions_to_date": 2,
-    "runs_to_date": 21
+    "runs_to_date": 22
   },
   "oos_evidence": {
     "window_months": 12,
     "note": "walk-forward out-of-sample, net of full Indian costs; past OOS performance does not predict future returns",
-    "total_return": 0.0502,
-    "cagr": 0.0463,
-    "sharpe": 0.371,
+    "total_return": 0.0636,
+    "cagr": 0.0586,
+    "sharpe": 0.452,
     "max_drawdown": -0.1033,
     "num_roundtrips": 0,
     "win_rate": 0.0,
@@ -74,7 +74,7 @@
     ],
     [
       1793404800000,
-      105023.1
+      106358.33
     ]
   ],
   "history": [
@@ -469,6 +469,26 @@
       ],
       "promoted": false,
       "reason": "challenger ts_mom failed minimum OOS gates (ret=-0.0639, dd=-0.1093, rebal=12) -- champion stays"
+    },
+    {
+      "date": "2026-11-02",
+      "champion": [
+        "xsmom",
+        {
+          "formation": 3,
+          "hold": 3
+        }
+      ],
+      "challenger": [
+        "xsmom",
+        {
+          "formation": 3,
+          "hold": 3
+        },
+        0.452
+      ],
+      "promoted": false,
+      "reason": "challenger xsmom OOS Sharpe 0.452 did not beat champion 0.452 by 0.1 -- champion stays"
     }
   ]
 }
