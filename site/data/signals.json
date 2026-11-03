@@ -1,15 +1,15 @@
 {
-  "signal_date": "2026-11-02",
-  "generated_at_utc": "2026-11-02T21:01:14.969077+00:00",
-  "generated_at_ist": "2026-11-03T02:31:14.969077+05:30",
-  "data_through": "2026-10-30",
+  "signal_date": "2026-11-03",
+  "generated_at_utc": "2026-11-03T18:41:26.509052+00:00",
+  "generated_at_ist": "2026-11-04T00:11:26.509052+05:30",
+  "data_through": "2026-11-02",
   "strategy": "xsmom",
   "params": {
     "formation": 3,
     "hold": 3
   },
-  "as_of_month": "2026-09",
-  "next_rebalance_month": "2026-10",
+  "as_of_month": "2026-10",
+  "next_rebalance_month": "2026-11",
   "capital_rs": 100000.0,
   "risk_per_trade": 0.01,
   "max_position_pct": 0.25,
@@ -28,78 +28,78 @@
   },
   "positions": [
     {
+      "symbol": "KOTAKBANK.NS",
+      "direction": "long",
+      "strategy_weight": 0.25,
+      "formation_return": 0.1827,
+      "entry_ref": 458.35,
+      "entry_note": "previous close; backtest fills at next session open",
+      "atr14": 9.85,
+      "stop_loss": 438.64,
+      "target": 497.77,
+      "qty": 50,
+      "notional_rs": 22917.5,
+      "risk_rs": 985.42,
+      "trailing_12m": {
+        "total_return": 0.0685,
+        "sharpe": 0.414,
+        "max_drawdown": -0.2033
+      }
+    },
+    {
+      "symbol": "DRREDDY.NS",
+      "direction": "long",
+      "strategy_weight": 0.25,
+      "formation_return": 0.1776,
+      "entry_ref": 1342.0,
+      "entry_note": "previous close; backtest fills at next session open",
+      "atr14": 29.74,
+      "stop_loss": 1282.53,
+      "target": 1460.94,
+      "qty": 16,
+      "notional_rs": 21472.0,
+      "risk_rs": 951.54,
+      "trailing_12m": {
+        "total_return": 0.0516,
+        "sharpe": 0.326,
+        "max_drawdown": -0.1693
+      }
+    },
+    {
       "symbol": "ETERNAL.NS",
       "direction": "long",
       "strategy_weight": 0.25,
-      "formation_return": 0.2094,
-      "entry_ref": 343.65,
+      "formation_return": 0.1362,
+      "entry_ref": 344.0,
       "entry_note": "previous close; backtest fills at next session open",
-      "atr14": 10.53,
-      "stop_loss": 322.59,
-      "target": 385.77,
-      "qty": 47,
-      "notional_rs": 16151.55,
-      "risk_rs": 989.72,
+      "atr14": 10.16,
+      "stop_loss": 323.68,
+      "target": 384.64,
+      "qty": 49,
+      "notional_rs": 16856.0,
+      "risk_rs": 995.59,
       "trailing_12m": {
-        "total_return": 0.0522,
-        "sharpe": 0.319,
+        "total_return": 0.0309,
+        "sharpe": 0.258,
         "max_drawdown": -0.3554
-      }
-    },
-    {
-      "symbol": "HCLTECH.NS",
-      "direction": "long",
-      "strategy_weight": 0.25,
-      "formation_return": 0.1593,
-      "entry_ref": 1428.1,
-      "entry_note": "previous close; backtest fills at next session open",
-      "atr14": 40.36,
-      "stop_loss": 1347.37,
-      "target": 1589.55,
-      "qty": 12,
-      "notional_rs": 17137.2,
-      "risk_rs": 968.72,
-      "trailing_12m": {
-        "total_return": -0.0195,
-        "sharpe": 0.088,
-        "max_drawdown": -0.3906
-      }
-    },
-    {
-      "symbol": "BAJAJ-AUTO.NS",
-      "direction": "long",
-      "strategy_weight": 0.25,
-      "formation_return": 0.1192,
-      "entry_ref": 10350.0,
-      "entry_note": "previous close; backtest fills at next session open",
-      "atr14": 273.28,
-      "stop_loss": 9803.44,
-      "target": 11443.12,
-      "qty": 1,
-      "notional_rs": 10350.0,
-      "risk_rs": 546.56,
-      "trailing_12m": {
-        "total_return": 0.1564,
-        "sharpe": 0.719,
-        "max_drawdown": -0.2204
       }
     },
     {
       "symbol": "TECHM.NS",
       "direction": "long",
       "strategy_weight": 0.25,
-      "formation_return": 0.1131,
-      "entry_ref": 1790.8,
+      "formation_return": 0.0934,
+      "entry_ref": 1786.9,
       "entry_note": "previous close; backtest fills at next session open",
-      "atr14": 53.17,
-      "stop_loss": 1684.46,
-      "target": 2003.48,
+      "atr14": 51.7,
+      "stop_loss": 1683.5,
+      "target": 1993.7,
       "qty": 9,
-      "notional_rs": 16117.2,
-      "risk_rs": 957.06,
+      "notional_rs": 16082.1,
+      "risk_rs": 930.62,
       "trailing_12m": {
-        "total_return": 0.2744,
-        "sharpe": 0.965,
+        "total_return": 0.2637,
+        "sharpe": 0.937,
         "max_drawdown": -0.2469
       }
     }
