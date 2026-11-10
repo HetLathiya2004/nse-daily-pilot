@@ -1,8 +1,8 @@
 {
-  "generated_at_utc": "2026-11-09T21:42:03.675116+00:00",
-  "generated_at_ist": "2026-11-10T03:12:03.675116+05:30",
-  "data_through": "2026-11-06",
-  "next_session": "2026-11-09",
+  "generated_at_utc": "2026-11-10T18:54:45.832705+00:00",
+  "generated_at_ist": "2026-11-11T00:24:45.832705+05:30",
+  "data_through": "2026-11-09",
+  "next_session": "2026-11-10",
   "universe_listed": 49,
   "symbols_loaded": 49,
   "symbols_failed": [],
