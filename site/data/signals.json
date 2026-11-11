@@ -1,7 +1,7 @@
 {
   "signal_date": "2026-11-10",
-  "generated_at_utc": "2026-11-10T18:54:45.832705+00:00",
-  "generated_at_ist": "2026-11-11T00:24:45.832705+05:30",
+  "generated_at_utc": "2026-11-11T18:58:51.403983+00:00",
+  "generated_at_ist": "2026-11-12T00:28:51.403983+05:30",
   "data_through": "2026-11-09",
   "strategy": "xsmom",
   "params": {
