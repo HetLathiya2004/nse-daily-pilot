@@ -8,14 +8,14 @@
     "description": "Cross-sectional momentum: hold top-decile names by trailing formation-month return (skip 1m), equal weight.",
     "promoted_on": "2026-10-07",
     "promotions_to_date": 2,
-    "runs_to_date": 33
+    "runs_to_date": 34
   },
   "oos_evidence": {
     "window_months": 12,
     "note": "walk-forward out-of-sample, net of full Indian costs; past OOS performance does not predict future returns",
-    "total_return": -0.0132,
-    "cagr": -0.0122,
-    "sharpe": 0.057,
+    "total_return": -0.0066,
+    "cagr": -0.0061,
+    "sharpe": 0.087,
     "max_drawdown": -0.2249,
     "num_roundtrips": 0,
     "win_rate": 0.0,
@@ -38,11 +38,11 @@
     ],
     [
       1772236800000,
-      112988.75
+      112988.76
     ],
     [
       1774915200000,
-      98720.05
+      98720.06
     ],
     [
       1777507200000,
@@ -50,7 +50,7 @@
     ],
     [
       1780185600000,
-      103963.16
+      103963.17
     ],
     [
       1782777600000,
@@ -62,7 +62,7 @@
     ],
     [
       1788134400000,
-      97924.61
+      97924.62
     ],
     [
       1790726400000,
@@ -70,33 +70,14 @@
     ],
     [
       1793404800000,
-      87575.26
+      87575.27
     ],
     [
       1795996800000,
-      98683.5
+      99344.38
     ]
   ],
   "history": [
-    {
-      "date": "2026-10-07",
-      "champion": [
-        "ts_mom",
-        {
-          "lookback": 9
-        }
-      ],
-      "challenger": [
-        "xsmom",
-        {
-          "formation": 3,
-          "hold": 3
-        },
-        0.625
-      ],
-      "promoted": true,
-      "reason": "challenger xsmom {'formation': 3, 'hold': 3} OOS Sharpe 0.625 beats champion ts_mom {'lookback': 9} (-0.496) by >= 0.1"
-    },
     {
       "date": "2026-10-08",
       "champion": [
@@ -654,6 +635,26 @@
       ],
       "promoted": false,
       "reason": "challenger xsmom failed minimum OOS gates (ret=-0.0132, dd=-0.2249, rebal=4) -- champion stays"
+    },
+    {
+      "date": "2026-11-18",
+      "champion": [
+        "xsmom",
+        {
+          "formation": 3,
+          "hold": 3
+        }
+      ],
+      "challenger": [
+        "xsmom",
+        {
+          "formation": 3,
+          "hold": 3
+        },
+        0.087
+      ],
+      "promoted": false,
+      "reason": "challenger xsmom failed minimum OOS gates (ret=-0.0066, dd=-0.2249, rebal=4) -- champion stays"
     }
   ]
 }
